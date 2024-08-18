@@ -1,0 +1,51 @@
+.navigation {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 112px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.navigationbar {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: white;
+    align-items: center;
+    gap: 32px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white
+}
+
+.sakuralogo {
+    width: 64px;
+    height: 64px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.language-img {
+    width: 64px;
+    height: 64px;
+}
+
+.naviTelefon {
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 5px;
+    text-decoration: none;
+    color: white
+}
+
+.telefonbild {
+    width: 30px;
+    height: 30px;
+
+}
