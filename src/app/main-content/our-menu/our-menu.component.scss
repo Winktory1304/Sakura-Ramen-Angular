@@ -1,10 +1,10 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
-h2{
+h2 {
     padding-top: 96px;
     font-weight: bold;
     font-size: 64px;
@@ -12,15 +12,51 @@ h2{
     margin-top: 96px;
     margin-bottom: 48px;
     text-align: center;
-    
 }
 
-section{
-    height: 100vh;
+h3 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.padding-bot-96px{
+    padding-bottom: 96px;
+}
+
+section {
+    
     width: 100%;
-    background-image: url('./../../../assets/img/1. Desktop@3x.jpg');    
-    background-size: cover;    
+    background-image: url('./../../../assets/img/1. Desktop@3x.jpg');
+    background-size: cover;
     background-repeat: none;
-    
-    
+
+    .our-menu-dishes {
+        display: flex;
+        align-items: center;
+
+        .h3-and-tabele {}
+
+        .auswahl {          
+            justify-content: flex-end;
+            font-family: 'Raleway', sans-serif;
+            font-size: 32px;
+            color: #675E54;
+            word-spacing: 160px;
+            float: left;
+            padding-bottom: 8px;
+
+        }
+
+        .leer{           
+                width: 160px;
+            
+        }
+    }
+
+    img {
+        width: 352px;
+        height: 352px;
+    }
+
 }
