@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-our-menu',
   standalone: true,
   imports: [],
-  templateUrl: './our-menu.component.component.html',
-  styleUrl: './our-menu.component.component.scss'
+  templateUrl: './our-menu.component.html',
+  styleUrl: './our-menu.component.scss'
 })
 export class OurMenuComponentComponent {
 
