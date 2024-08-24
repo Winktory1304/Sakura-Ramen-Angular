@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+h2{
+    font-weight: bold;
+    font-size: 64px;
+    color: #9F0908;
+    margin-top: 96px;
+    margin-bottom: 48px;
+    text-align: center;
+    
+}
+
+.how-to-order{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 96px;    
+    align-items: center;
+    
+    span {
+        margin-top: 8px;
+        font: bold 32px 'Economica', sans-serif;
+    }
+    
+
+    .how-to-order-box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        img{
+            width: 112px;
+        }
+    }
+}

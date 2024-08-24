@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+h2{
+    padding-top: 96px;
+    font-weight: bold;
+    font-size: 64px;
+    color: #9F0908;
+    margin-top: 96px;
+    margin-bottom: 48px;
+    text-align: center;
+    
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./../../../assets/img/1. Desktop@3x.jpg');    
+    background-size: cover;    
+    background-repeat: none;
+    
+    
+}
