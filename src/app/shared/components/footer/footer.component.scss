@@ -1,0 +1,35 @@
+section {
+    display: flex;
+    height: 144px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    span {
+        color: white;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .logo-footer {
+        display: flex;
+        align-items: center; 
+        gap: 8px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+
+        img {
+            height: 44px;
+        }
+    }
+
+    .social-media-footer {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
