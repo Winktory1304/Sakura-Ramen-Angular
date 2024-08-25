@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule } from "@angular/common";
 import { MainContentComponent } from './main-content/main-content.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { ImprintComponent } from './imprint/imprint.component';
+import { ImprintComponent } from './main-content/imprint/imprint.component';
 
 
 @Component({
