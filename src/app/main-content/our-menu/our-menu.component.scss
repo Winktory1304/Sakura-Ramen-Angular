@@ -1,6 +1,9 @@
 * {
     margin: 0;  
     box-sizing: border-box;
+    
+   
+   
 }
 
 h2 {
@@ -24,7 +27,7 @@ h3 {
 }
 
 section {
-    
+   
     width: 100%;
     background-image: url('./../../../assets/img/1. Desktop@3x.jpg');
     background-size: cover;
@@ -33,6 +36,8 @@ section {
     .our-menu-dishes {
         display: flex;
         align-items: center;
+        justify-content: center;
+        gap: 16px;
 
         
 
